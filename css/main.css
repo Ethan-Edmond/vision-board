@@ -20,22 +20,29 @@ h2 {
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 0px;
-    line-height: 0px;
+    line-height: 8px;
 }
 
+h3 {
+    font-size: 20px;
+}
 strong {
-    font-size: 30px;
+    font-size: 38px;
+    text-transform: none;
+    line-height: 40px;
 }
 
 ul {
     list-style-type: none;
+    font-size: 20px;
+    margin: 38px 60px 0px 20px;
 }
 
 span {
     background: #fff44f;
-    
+    padding: 5px 14px;
+    font-size: 18px;
 }
-
 
 
 /***** Blocks *****/
@@ -53,7 +60,7 @@ span {
 
 .large-block {
     height: 430px;
-    padding-top: 60px;
+    padding-top: 68px;
 }
 
 .centered {
@@ -62,12 +69,12 @@ span {
 
 .left-two {
     text-align: left;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .right-two {
     text-align: right;
-    padding-right: 30px;
+    padding-right: 38px;
 }
 
 .light-back {
@@ -83,4 +90,11 @@ span {
 
 .dark-back strong {
     font-size: 30px;
+    text-transform: uppercase;
+}
+
+/***** Bottom Image *****/
+
+.bottom-image {
+	margin-top: 10px;
 }
